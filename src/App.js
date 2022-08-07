@@ -14,7 +14,7 @@ function App() {
   return (
     <div className="App">
       <h2>{likes}</h2>
-      <button onClick={increment}>IN</button>
+      <button onClick={increment}>INr</button>
       <button onClick={decrement}>DEL</button>
     </div>
   );
