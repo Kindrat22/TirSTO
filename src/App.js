@@ -1,22 +1,30 @@
 import React, {useState} from "react";
+import CarouselBox from "./components/UI/CarouselBox/CarouselBox";
+import Info from "./pages/info/info";
+import Services from "./pages/services/services";
+import Contacts from "./pages/contacts/contacts";
+import Header1 from "./components/Header1";
+import BasicSpeedDial from "./components/UI/SpeedDial/SpeedDial";
+
+
+
+
+
 
 function App() {
-  const [likes, setLikes] = useState(5)
-
-  function  increment() {
-    setLikes(likes + 1)
-  }
-
-  function decrement() {
-    setLikes(likes - 1)
-  }
 
   return (
-    <div className="App">
-      <h2>{likes}</h2>
-      <button onClick={increment}>INr</button>
-      <button onClick={decrement}>DEL</button>
-    </div>
+
+      <div>
+          <BasicSpeedDial/>
+          <Header1/>
+          <CarouselBox/>
+          <Info/>
+          <Services/>
+          <Contacts/>
+      </div>
+
+
   );
-}
+};
 export default App;
