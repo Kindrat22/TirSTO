@@ -1,36 +1,65 @@
 import * as React from 'react';
-import Box from '@mui/material/Box';
+import Backdrop from '@mui/material/Backdrop';
 import SpeedDial from '@mui/material/SpeedDial';
-import SpeedDialIcon from '@mui/material/SpeedDialIcon';
 import SpeedDialAction from '@mui/material/SpeedDialAction';
-import FileCopyIcon from '@mui/icons-material/FileCopyOutlined';
-import SaveIcon from '@mui/icons-material/Save';
-import PrintIcon from '@mui/icons-material/Print';
-import ShareIcon from './@mui/icons-material/Share';
+import PhoneIcon from '@mui/icons-material/Phone';
+import TelegramIcon from '@mui/icons-material/Telegram';
+import WhatsAppIcon from '@mui/icons-material/WhatsApp';
+import ViberIcon from '@mui/icons-material/PhoneInTalk';
+import EmailIcon from '@mui/icons-material/Email';
+import "./styleSpeedDial.css"
+
+
+const style = {
+    margin: 0,
+    right: 20,
+    bottom: 20,
+    position: 'fixed',
+};
 
 const actions = [
-    { icon: <FileCopyIcon />, name: 'Copy' },
-    { icon: <SaveIcon />, name: 'Save' },
-    { icon: <PrintIcon />, name: 'Print' },
-    { icon: <ShareIcon />, name: 'Share' },
+    { icon: <TelegramIcon style={{ fill: '#000000' }} />,
+        name: 'Telegram', link: "https://t.me/rkindrat" },
+    { icon: <WhatsAppIcon style={{ fill: '#000000' }} />,
+        name: 'WhatsApp', link: "https://wa.me/+3809674496602" },
+    { icon: <ViberIcon style={{ fill: '#000000' }} />,
+        name: 'Viber', link: "viber://chat?number=+380979604721" },
+    { icon: <EmailIcon style={{ fill: '#000000' }} />,
+        name: 'Email', link: "mailto:nazarkindrat@gmail.com" },
 ];
 
-export default function BasicSpeedDial() {
+export default function Socials() {
+    const [open, setOpen] = React.useState(false);
+    const handleOpen = () => {
+        setOpen(true);
+    };
+
+    const handleClose = () => {
+        setOpen(false);
+    };
     return (
-        <Box sx={{ height: 320, transform: 'translateZ(0px)', flexGrow: 1 }}>
+        <div>
+            <Backdrop open={open} />
             <SpeedDial
-                ariaLabel="SpeedDial basic example"
-                sx={{ position: 'absolute', bottom: 16, right: 16 }}
-                icon={<SpeedDialIcon />}
+                ariaLabel="SpeedDial openIcon example"
+                style={style}
+                hidden={false}
+                icon={<PhoneIcon openIcon={<PhoneIcon/>} />}
+                onClose={handleClose}
+                onOpen={handleOpen}
+                open={open}
+
             >
                 {actions.map((action) => (
                     <SpeedDialAction
                         key={action.name}
                         icon={action.icon}
                         tooltipTitle={action.name}
+                        onClick={handleClose}
+                        href={action.link}
                     />
                 ))}
             </SpeedDial>
-        </Box>
+        </div>
     );
 }

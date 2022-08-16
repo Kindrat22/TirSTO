@@ -1,10 +1,10 @@
-import React, {useState} from "react";
+import React from "react";
+import Header from "./components/Header";
 import CarouselBox from "./components/UI/CarouselBox/CarouselBox";
 import Info from "./pages/info/info";
-import Services from "./pages/services/services";
-import Contacts from "./pages/contacts/contacts";
-import Header1 from "./components/Header1";
-import BasicSpeedDial from "./components/UI/SpeedDial/SpeedDial";
+import Socials from "./components/UI/SpeedDial/SpeedDial";
+import Posts from "./pages/Posts";
+
 
 
 
@@ -16,12 +16,12 @@ function App() {
   return (
 
       <div>
-          <BasicSpeedDial/>
-          <Header1/>
+        <Header/>
           <CarouselBox/>
-          <Info/>
-          <Services/>
-          <Contacts/>
+        <Info/>
+          <Posts/>
+          <Socials></Socials>
+
       </div>
 
 

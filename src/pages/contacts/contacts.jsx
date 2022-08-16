@@ -1,14 +1,13 @@
 import React from 'react'
 import './contacts.css'
-import {Map, InfoWindow, Marker, GoogleApiWrapper} from 'google-maps-react';
 import locationIcon from '../../img/locationIcon.png'
 import timeIcon from '../../img/timeIcon.png'
 import contactIcon from '../../img/contactIcon.png'
 import telegramIcon from '../../img/telegramIcon.png'
 import viberIcon from '../../img/viberIcon.png'
 import watsappIcon from '../../img/watsappIcon.png'
-import mailIcon from '../../img/mailIcon.png'
-export class Contacts extends React.Component{
+import mailIcon from '../img/mailIcon.png'
+export default class Contacts extends React.Component{
     render(){
          
         return(
@@ -61,32 +60,10 @@ export class Contacts extends React.Component{
                             <a href="mailto:nazarkindrat@gmail.com"><img src={mailIcon} width = "55" height = "55" className = "icons scale" alt=""/> </a>
                         </div> 
                     </div>
-                <p className = "headerText"> Ми на мапі:</p>
-                <div className = "map mb-3">
-                    <Map className =""
-                        google={this.props.google}
-                        style={this.style}
-                        
-                        initialCenter={{
-                            lat: 49.674394,
-                            lng:  24.559348
-                        }}
-                        zoom={15}
-                        onClick={this.onMapClicked}
-                        >
-                        <Marker onClick={this.onMarkerClick}
-                            name={'Current location'} />
-                        <InfoWindow onClose={this.onInfoWindowClose}>
-                            <div>
-                            <h1>Наше місцезнаходження</h1>
-                            </div>
-                        </InfoWindow>
-                    </Map> 
-                </div>
+
+
+
             </div>
         )
     } 
 }
-export default GoogleApiWrapper({
-    apiKey: ("AIzaSyCbbkoG2QnqgjR8ziTi_dZbiHSHY4UptV0")
-  })(Contacts)
