@@ -57,6 +57,7 @@ export default function Socials() {
                         tooltipTitle={action.name}
                         onClick={handleClose}
                         href={action.link}
+                        target="_blank"
                     />
                 ))}
             </SpeedDial>
