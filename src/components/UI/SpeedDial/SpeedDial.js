@@ -6,7 +6,7 @@ import PhoneIcon from '@mui/icons-material/Phone';
 import TelegramIcon from '@mui/icons-material/Telegram';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import ViberIcon from '@mui/icons-material/PhoneInTalk';
-import EmailIcon from '@mui/icons-material/Email';
+import EmailIcon from '@mui/icons-material/MailOutline';
 import "./styleSpeedDial.css"
 
 
@@ -18,13 +18,13 @@ const style = {
 };
 
 const actions = [
-    { icon: <TelegramIcon style={{ fill: '#000000' }} />,
+    { icon: <TelegramIcon style={{ fill: '#2CAAE0' } } />,
         name: 'Telegram', link: "https://t.me/rkindrat" },
-    { icon: <WhatsAppIcon style={{ fill: '#000000' }} />,
+    { icon: <WhatsAppIcon style={{ fill: '#5CF978' }} />,
         name: 'WhatsApp', link: "https://wa.me/+3809674496602" },
-    { icon: <ViberIcon style={{ fill: '#000000' }} />,
+    { icon: <ViberIcon style={{ fill: '#793AAA' }} />,
         name: 'Viber', link: "viber://chat?number=+380979604721" },
-    { icon: <EmailIcon style={{ fill: '#000000' }} />,
+    { icon: <EmailIcon style={{ fill: '#EE4536' }} />,
         name: 'Email', link: "mailto:nazarkindrat@gmail.com" },
 ];
 

@@ -26,7 +26,7 @@ export default class Header extends Component {
 
 
                         </Nav>
-                        <Form className="m-1 text-center">
+                        <Form  className="m-1 text-end">
                             <Button >Search</Button>
                         </Form>
 

@@ -3,6 +3,7 @@ import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import Box from '@mui/material/Box';
 
+
 export default function TabsButton() {
     const [value, setValue] = React.useState(0);
 
@@ -11,7 +12,7 @@ export default function TabsButton() {
     };
 
     return (
-        <Box sx={{ maxWidth: { xs: 500, sm: 500 }}}>
+        <Box sx={{ maxWidth: { xs: 330, sm: 455 },bgcolor: 'dark'}}>
             <Tabs
                 selectionFollowsFocus
                 value={value}
@@ -22,8 +23,10 @@ export default function TabsButton() {
 
 
 
+
+
             >
-                <Tab href={'/'} style={{color:'white'}} label="Item One" />
+                <Tab href={'/'} style={{color:'white'}}  label="Item One" />
                 <Tab style={{color:'white'}} label="Item Two" />
                 <Tab style={{color:'white'}} label="Item Three" />
                 <Tab style={{color:'white'}} label="Item Four" />

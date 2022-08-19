@@ -10,11 +10,11 @@ import './style_pages.css'
 function Posts() {
     return (
 
-        <Accordion className={'Pages_total'}   defaultActiveKey={['0']} alwaysOpen >
-            <h4 className="text-center m-4 ">Ми виконуємо ремонт</h4>
-            <Accordion.Item eventKey="1">
-                <Accordion.Header>Мотору</Accordion.Header>
-                <Accordion.Body>
+        <Accordion  className={'Pages_total'}   defaultActiveKey={['0']} alwaysOpen >
+            <h4  className="text-center m-4 ">Ми виконуємо ремонт</h4>
+            <Accordion.Item   eventKey="1">
+                <Accordion.Header  >Мотору</Accordion.Header>
+                <Accordion.Body >
                     <WorkTable
                         rows ={[
                             {name: 'Ремонт Мотору',price: 123},

@@ -1,0 +1,6 @@
+.stylTab {
+    color: white;
+}
+.stylTab:hover {
+    color: red;
+}
