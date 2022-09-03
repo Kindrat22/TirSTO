@@ -6,7 +6,8 @@ import Footer from "./components/UI/Footer/Footer";
 import Contacts from "./pages/contacts/contacts";
 import Services from "./pages/services/Services";
 import CarouselBox from "./pages/CarouselBox/CarouselBox";
-import Maps from "./pages/Map/Map";
+import MyMap from "./pages/Map/Map";
+
 
 
 
@@ -21,7 +22,7 @@ function App() {
           <Info/>
           <Contacts/>
           <Services/>
-
+          <MyMap/>
           <Socials></Socials>
           <Footer/>
 
