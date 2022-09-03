@@ -8,35 +8,9 @@ import "../../../styles/style_1.css"
 export default function Footer() {
     return (
         <MDBFooter  bgColor='dark' className='text-center text-lg-start text-muted'>
-            <section className='d-flex justify-content-center justify-content-lg-between p-4 border-bottom'>
-                <div className='me-5 d-none d-lg-block'>
-                    <span>Соцмережі:</span>
-                </div>
-
-                <div>
-                    <a href='' className='me-4 text-reset'>
-
-                    </a>
-                    <a href='' className='me-4 text-reset'>
-                        <MDBIcon fab icon="twitter" />
-                    </a>
-                    <a href='' className='me-4 text-reset'>
-                        <MDBIcon fab icon="google" />
-                    </a>
-                    <a href='' className='me-4 text-reset'>
-                        <MDBIcon fab icon="instagram" />
-                    </a>
-                    <a href='' className='me-4 text-reset'>
-                        <MDBIcon fab icon="linkedin" />
-                    </a>
-                    <a href='' className='me-4 text-reset'>
-                        <MDBIcon fab icon="github" />
-                    </a>
-                </div>
-            </section>
 
             <section className=''>
-                <MDBContainer className='text-center text-md-start mt-5'>
+                <MDBContainer className='text-center text-md-start mt-5 p-4'>
                     <MDBRow className='mt-3'>
                         <MDBCol md="3" lg="4" xl="3" className='mx-auto mb-4'>
                             <h6 className='text-uppercase fw-bold mb-4'>
@@ -49,55 +23,10 @@ export default function Footer() {
                             </p>
                         </MDBCol>
 
-                        <MDBCol md="2" lg="2" xl="2" className='mx-auto mb-4'>
-                            <h6 className='text-uppercase fw-bold mb-4'>Products</h6>
-                            <p>
-                                <a href='#!' className='text-reset'>
-                                    Angular
-                                </a>
-                            </p>
-                            <p>
-                                <a href='#!' className='text-reset'>
-                                    React
-                                </a>
-                            </p>
-                            <p>
-                                <a href='#!' className='text-reset'>
-                                    Vue
-                                </a>
-                            </p>
-                            <p>
-                                <a href='#!' className='text-reset'>
-                                    Laravel
-                                </a>
-                            </p>
-                        </MDBCol>
 
-                        <MDBCol md="3" lg="2" xl="2" className='mx-auto mb-4'>
-                            <h6 className='text-uppercase fw-bold mb-4'>Useful links</h6>
-                            <p>
-                                <a href='#!' className='text-reset'>
-                                    Pricing
-                                </a>
-                            </p>
-                            <p>
-                                <a href='#!' className='text-reset'>
-                                    Settings
-                                </a>
-                            </p>
-                            <p>
-                                <a href='#!' className='text-reset'>
-                                    Orders
-                                </a>
-                            </p>
-                            <p>
-                                <a href='#!' className='text-reset'>
-                                    Help
-                                </a>
-                            </p>
-                        </MDBCol>
 
-                        <MDBCol  md="4" lg="3" xl="3" className='mx-auto mb-md-0 mb-4'>
+
+                        <MDBCol  md="4" lg="3" xl="3" className=''>
                             <h6 className='text-uppercase fw-bold mb-4'>Contact</h6>
                             <p>
                                 <a className={"Link"} href="https://www.google.com.ua/maps/dir//49.6744603,24.55936/@49.6743283,24.5574077,482m/data=!3m1!1e3!4m2!4m1!3e0" target="_blank"><LocationOnIcon /></a>

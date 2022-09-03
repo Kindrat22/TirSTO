@@ -1,7 +1,0 @@
-.SpeedDial {
-    display: block;
-    position: fixed;
-    bottom: 0;
-    right: calc((100vw - 1000px) / 2);
-    z-index:99999999;
-}

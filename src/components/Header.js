@@ -1,16 +1,17 @@
 import React, { Component } from 'react'
-import {Navbar, Form, Button, Nav, Container} from 'react-bootstrap'
+import {Navbar, Nav, Container} from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import logo from "../imgs/logo.png"
 import TabsButton from "./UI/Nav tabs/TabsButton";
+import './componentsStyles.css'
 
 
 export default class Header extends Component {
     render() {
         return (
-            <Navbar fixed="top" collapseOnSelect expand="sm" bg="dark" variant="dark">
+            <Navbar fixed={'top'} className='Header' collapseOnSelect expand="sm" bg="dark" >
                 <Container>
-                    <Navbar.Brand href="/">
+                    <Navbar.Brand href="#carousel">
                         <img
                             src={logo}
                             height="30"
@@ -26,9 +27,6 @@ export default class Header extends Component {
 
 
                         </Nav>
-                        <Form  className="m-1 text-end">
-                            <Button >Search</Button>
-                        </Form>
 
                     </Navbar.Collapse>
                 </Container>

@@ -1,0 +1,20 @@
+.Pages_total {
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+
+}
+
+h1:target {
+    padding-top: 1px;
+}
+
+:target {
+    padding-top: 50px;
+}
+
+.Carousel {
+    margin-top: 39px;
+}
+

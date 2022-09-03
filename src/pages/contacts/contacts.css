@@ -1,29 +1,38 @@
 
+
 .contactInfo{
     margin-top: 5%;
     margin-left: 7%;
     margin-right: 7%;
     font-size: 1.2rem;
+  display: inline-block;
+
+
+
 }
 
 .headerText{
   text-align: center;
   border-bottom: 1px solid rgb(136, 136, 136);
-  margin-bottom: 2%;
-  margin-left: 7%;
-  margin-right: 7%;
-  margin-top: 7%;
+  margin: 7% 7% 2%;
   font-size: 2em;
 }
 
 .block{
     margin: auto;
+  display: block;
+
+
 }
 
 .socialMedia{
-margin-left: 30%;
-margin-right: 30%;
-margin-top: 3%;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 3%;
+  font-size: 3rem;
+
+
+
 }
 @-webkit-keyframes swing {
   15% {

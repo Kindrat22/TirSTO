@@ -1,10 +1,13 @@
 import React from "react";
 import Header from "./components/Header";
-import CarouselBox from "./components/UI/CarouselBox/CarouselBox";
 import Info from "./pages/info/info";
 import Socials from "./components/UI/SpeedDial/SpeedDial";
-import Posts from "./pages/Posts";
 import Footer from "./components/UI/Footer/Footer";
+import Contacts from "./pages/contacts/contacts";
+import Services from "./pages/services/Services";
+import CarouselBox from "./pages/CarouselBox/CarouselBox";
+import Maps from "./pages/Map/Map";
+
 
 
 
@@ -13,12 +16,16 @@ function App() {
   return (
 
       <div>
-        <Header/>
+          <Header/>
           <CarouselBox/>
           <Info/>
-          <Posts/>
+          <Contacts/>
+          <Services/>
+
           <Socials></Socials>
           <Footer/>
+
+
 
       </div>
 

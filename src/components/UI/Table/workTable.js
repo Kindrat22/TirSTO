@@ -25,16 +25,17 @@ const StyledTableRow = styled(TableRow)(({ theme }) => ({
     // hide last border
     '&:last-child td, &:last-child th': {
         border: 0,
+
     },
 }));
 
 export default function  WorkTable(props){
 
     return (
-        <TableContainer component={Paper}>
-            <Table sx={{ minWidth: 400 }} aria-label="customized table">
-                <TableHead>
-                    <TableRow>
+        <TableContainer component={Paper} style={{borderRadius:0}}>
+            <Table sx={{ minWidth: 400 }}  aria-label="customized table" >
+                <TableHead >
+                    <TableRow >
                         <StyledTableCell>Послуга</StyledTableCell>
                         <StyledTableCell align="right">Ціна, грн.</StyledTableCell>
                     </TableRow>

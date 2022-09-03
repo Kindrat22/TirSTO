@@ -2,7 +2,12 @@ import * as React from 'react';
 import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import Box from '@mui/material/Box';
+import './styleNabTabs.css'
 
+const style = {
+    color: "white",
+
+};
 
 export default function TabsButton() {
     const [value, setValue] = React.useState(0);
@@ -12,13 +17,13 @@ export default function TabsButton() {
     };
 
     return (
-        <Box sx={{ maxWidth: { xs: 330, sm: 455 },bgcolor: 'dark'}}>
+        <Box sx={{ maxWidth: { xs: 360, sm: 500 }}}>
             <Tabs
                 selectionFollowsFocus
                 value={value}
                 onChange={handleChange}
                 variant="scrollable"
-                scrollButtons={false}
+                scrollButtons={true}
                 aria-label="scrollable prevent tabs example"
 
 
@@ -26,10 +31,11 @@ export default function TabsButton() {
 
 
             >
-                <Tab href={'/'} style={{color:'white'}}  label="Item One" />
-                <Tab style={{color:'white'}} label="Item Two" />
-                <Tab style={{color:'white'}} label="Item Three" />
-                <Tab style={{color:'white'}} label="Item Four" />
+                <Tab href='#info' style={style}  label="Головна" />
+                <Tab href='#contacts' style={style} label="Контакти" />
+                <Tab href='#services' style={style} label="Послуги" />
+                <Tab href='#map' style={style} label="Карта" />
+
             </Tabs>
         </Box>
     );
