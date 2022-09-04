@@ -1,148 +1,20 @@
 
+.block {
 
-.contactInfo{
-    margin-top: 5%;
-    margin-left: 7%;
-    margin-right: 7%;
-    font-size: 1.2rem;
-  display: inline-block;
+    display: inline-block ;
+    margin-left: 30px;
+    height:100%;
+    width: 300px;
+}
 
-
+.socialblock {
+    display: inline-block ;
+    margin-left: 10px;
+    height:100%;
+    width: 100px;
 
 }
 
-.headerText{
-  text-align: center;
-  border-bottom: 1px solid rgb(136, 136, 136);
-  margin: 7% 7% 2%;
-  font-size: 2em;
-}
-
-.block{
-    margin: auto;
-  display: block;
-
-
-}
-
-.socialMedia{
-  margin-left: 30%;
-  margin-right: 30%;
-  margin-top: 3%;
-  font-size: 3rem;
 
 
 
-}
-@-webkit-keyframes swing {
-  15% {
-    -webkit-transform: translateX(9px);
-    transform: translateX(9px);
-  }
-  30% {
-    -webkit-transform: translateX(-9px);
-    transform: translateX(-9px);
-  }
-  40% {
-    -webkit-transform: translateX(6px);
-    transform: translateX(6px);
-  }
-  50% {
-    -webkit-transform: translateX(-6px);
-    transform: translateX(-6px);
-  }
-  65% {
-    -webkit-transform: translateX(3px);
-    transform: translateX(3px);
-  }
-  100% {
-    -webkit-transform: translateX(0);
-    transform: translateX(0);
-  }
-}
-
-@keyframes swing {
-  15% {
-    -webkit-transform: translateX(9px);
-    transform: translateX(9px);
-  }
-  30% {
-    -webkit-transform: translateX(-9px);
-    transform: translateX(-9px);
-  }
-  40% {
-    -webkit-transform: translateX(6px);
-    transform: translateX(6px);
-  }
-  50% {
-    -webkit-transform: translateX(-6px);
-    transform: translateX(-6px);
-  }
-  65% {
-    -webkit-transform: translateX(3px);
-    transform: translateX(3px);
-  }
-  100% {
-    -webkit-transform: translateX(0);
-    transform: translateX(0);
-  }
-}
-
-@keyframes pulsingNew {
-  0% {
-    -webkit-transform: scale(1.0, 1.0);
-    transform: scale(1.0, 1.0);
-  }
-  100% {
-    -webkit-transform: scale(1.25, 1.25);
-    transform: scale(1.25, 1.25);
-  }
-}
-.phoneEffect:hover {
-  -webkit-animation: swing 0.6s ease;
-  animation: swing 0.6s ease;
-   -webkit-animation-iteration-count: 1;
-   animation-iteration-count: 1;
-}
-
-
-.scale:hover {
-  animation: pulsingNew 0.5s both;
-}
-.map{
-  overflow:hidden;
-  padding-bottom:56.25%;
-  position:relative;
-  height:0;
-  margin-left: 12%;
-  margin-right: 12%;
-}
-
-@media (min-width: 500px) and (max-width: 900px){
-  .socialMediaIcon{
-    margin-left: 25px;
-  }
-  .socialMedia{
-    margin-left: 15%;
-    margin-right: 15%;
-  }
-  .map{ 
-    margin-left: 8%;
-    margin-right: 8%;
-  }
-}
-
-@media (max-width: 499px){
-  .socialMediaIcon{
-    margin-left: 41px;
-    margin-bottom: 30px;
-  }
-  .socialMedia{
-    margin-left: 20%;
-    margin-right: 20%;
-  }
-  .map{ 
-    margin-left: 3%;
-    margin-right: 3%;
-  }
-}

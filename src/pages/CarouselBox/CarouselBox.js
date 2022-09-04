@@ -7,7 +7,7 @@ import '../PagesStyles.css'
 
 function CarouselBox() {
     return (
-        <div>
+        <div className={'CarouselBox'}>
             <h1 id='carousel'></h1>
             <Carousel className='Carousel'>
             <Carousel.Item interval={3500}>

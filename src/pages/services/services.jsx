@@ -1,6 +1,7 @@
 import Accordion from 'react-bootstrap/Accordion';
 import WorkTable from "../../components/UI/Table/workTable";
 import React from "react";
+import '../PagesStyles.css'
 
 const style = {
     marginTop: 3,
@@ -10,9 +11,10 @@ const style = {
 
 function Services() {
     return (
-        <div className={'Pages_total'} id={'services'}>
-            <h4  className="text-center m-5">Ми виконуємо ремонт</h4>
-            <Accordion defaultActiveKey={['3']} alwaysOpen>
+        <div id={'services'}>
+            <p  className="headerText mt-5">Ми виконуємо ремонт</p>
+            <div className = "Pages_total">
+                <Accordion defaultActiveKey={['3']} alwaysOpen>
                 <Accordion.Item eventKey="0">
                     <Accordion.Header>Ходової</Accordion.Header>
                     <Accordion.Body style={style}>
@@ -59,6 +61,7 @@ function Services() {
                     </Accordion.Body>
                 </Accordion.Item>
             </Accordion>
+            </div>
         </div>
     );
 }
