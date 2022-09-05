@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, {Component} from 'react'
 import {Navbar, Nav, Container} from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import logo from "../imgs/logo.png"
@@ -8,8 +8,7 @@ import './componentsStyles.css'
 
 export default class Header extends Component {
     render() {
-        return (
-            <Navbar fixed={'top'} className='Header' collapseOnSelect expand="sm" bg="dark" >
+        return (<Navbar fixed={'top'} className='Header' collapseOnSelect expand="sm" bg="dark">
                 <Container>
                     <Navbar.Brand href="#carousel">
                         <img

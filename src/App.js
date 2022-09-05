@@ -9,28 +9,24 @@ import CarouselBox from "./pages/CarouselBox/CarouselBox";
 import MyMap from "./pages/Map/Map";
 
 
-
-
-
 function App() {
 
-  return (
+    return (
 
-      <div>
-          <Header/>
-          <CarouselBox/>
-          <Info/>
-          <Contacts/>
-          <Services/>
-          <MyMap/>
-          <Socials></Socials>
-          <Footer/>
-
-
-
-      </div>
+        <div>
+            <Header/>
+            <CarouselBox/>
+            <Info/>
+            <Contacts/>
+            <Services/>
+            <MyMap/>
+            <Socials></Socials>
+            <Footer/>
 
 
-  );
-};
+        </div>
+
+
+    );
+}
 export default App;

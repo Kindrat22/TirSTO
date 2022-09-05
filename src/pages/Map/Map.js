@@ -1,15 +1,13 @@
 import React from 'react'
-import {GoogleMap,  Marker, useJsApiLoader} from '@react-google-maps/api';
+import {GoogleMap, Marker, useJsApiLoader} from '@react-google-maps/api';
 import '../PagesStyles.css'
 
 const containerStyle = {
-    width: '100%',
-    height: '500px'
+    width: '100%', height: '500px'
 };
 
 const center = {
-    lat: 49.674394,
-    lng:  24.559348
+    lat: 49.674394, lng: 24.559348
 }
 
 const onClick = () => {
@@ -17,12 +15,9 @@ const onClick = () => {
 };
 
 
-
-
 function MyMap() {
-    const { isLoaded } = useJsApiLoader({
-        id: 'google-map-script',
-        googleMapsApiKey: "AIzaSyDQB_ECDhUbjI1DJZ-y7LdBMUAa0q-eYpc"
+    const {isLoaded} = useJsApiLoader({
+        id: 'google-map-script', googleMapsApiKey: "AIzaSyDQB_ECDhUbjI1DJZ-y7LdBMUAa0q-eYpc"
     })
 
     const [map, setMap] = React.useState(null)
@@ -38,34 +33,31 @@ function MyMap() {
     }, [])
 
 
+    return isLoaded ? (<div id={"maps"}>
+        <p className="headerText mt-5">Ми на мапі</p>
+        <div className={'Pages_total'}>
+            <GoogleMap
+                mapContainerStyle={containerStyle}
+                center={center}
+                zoom={16}
+                onLoad={onLoad}
+                onUnmount={onUnmount}
+                mapTypeId='satellite'
+            >
+                { /* Child components, such as markers, info windows, etc. */}
 
-    return isLoaded ? (
-        <div  id={"map"}>
-            <p  className="headerText mt-5">Ми на мапі</p>
-            <div className={'Pages_total'}>
-                <GoogleMap
-                    mapContainerStyle={containerStyle}
-                    center={center}
-                    zoom={16}
-                    onLoad={onLoad}
-                    onUnmount={onUnmount}
-                    mapTypeId = 'satellite'
+
+                <Marker
+                    position={center}
+                    onClick={onClick}
                 >
-                    { /* Child components, such as markers, info windows, etc. */ }
 
-
-                    <Marker
-                        position={center}
-                        onClick={onClick}
-                    >
-
-                    </Marker>
+                </Marker>
 
                 <></>
-                </GoogleMap>
-            </div>
+            </GoogleMap>
         </div>
-    ) : <></>
+    </div>) : <></>
 }
 
 export default React.memo(MyMap)

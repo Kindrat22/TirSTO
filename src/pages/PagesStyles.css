@@ -23,9 +23,16 @@ h1:target {
     margin-top: 39px;
 }
 
+.Link {
+    color: #6C757D;
+}
+
+.Link:hover {
+    color: #1876D1;
+}
 
 
-.contactInfo{
+.contactInfo {
     margin-top: 3%;
     margin-left: 7%;
     margin-right: 7%;
@@ -37,15 +44,14 @@ h1:target {
 }
 
 
-
-.headerText{
+.headerText {
     text-align: center;
     border-bottom: 1px solid rgb(136, 136, 136);
     margin: 7% 7% 2%;
     font-size: 2em;
 }
 
-.socialMedia{
+.socialMedia {
     margin-left: 30%;
     margin-right: 30%;
     margin-top: 3%;
@@ -53,8 +59,8 @@ h1:target {
     text-align: center;
 
 
-
 }
+
 @-webkit-keyframes swing {
     15% {
         -webkit-transform: translateX(9px);
@@ -119,6 +125,7 @@ h1:target {
         transform: scale(1.25, 1.25);
     }
 }
+
 .phoneEffect:hover {
     -webkit-animation: swing 0.6s ease;
     animation: swing 0.6s ease;
@@ -131,39 +138,43 @@ h1:target {
     animation: pulsingNew 0.5s both;
 }
 
-.map{
-    overflow:hidden;
-    padding-bottom:56.25%;
-    position:relative;
-    height:0;
+.map {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
     margin-left: 12%;
     margin-right: 12%;
 }
 
-@media (min-width: 500px) and (max-width: 900px){
-    .socialMediaIcon{
+@media (min-width: 500px) and (max-width: 900px) {
+    .socialMediaIcon {
         margin-left: 25px;
     }
-    .socialMedia{
+
+    .socialMedia {
         margin-left: 15%;
         margin-right: 15%;
     }
-    .map{
+
+    .map {
         margin-left: 8%;
         margin-right: 8%;
     }
 }
 
-@media (max-width: 499px){
-    .socialMediaIcon{
+@media (max-width: 499px) {
+    .socialMediaIcon {
         margin-left: 41px;
         margin-bottom: 30px;
     }
-    .socialMedia{
+
+    .socialMedia {
         margin-left: 20%;
         margin-right: 20%;
     }
-    .map{
+
+    .map {
         margin-left: 3%;
         margin-right: 3%;
     }

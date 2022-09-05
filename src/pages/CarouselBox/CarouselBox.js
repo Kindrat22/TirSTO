@@ -6,10 +6,9 @@ import Sird_png from "./sird.png"
 import '../PagesStyles.css'
 
 function CarouselBox() {
-    return (
-        <div className={'CarouselBox'}>
-            <h1 id='carousel'></h1>
-            <Carousel className='Carousel'>
+    return (<div className={'CarouselBox'}>
+        <h1 id='carousel'></h1>
+        <Carousel className='Carousel'>
             <Carousel.Item interval={3500}>
                 <img
                     className="d-block w-100"
@@ -50,8 +49,7 @@ function CarouselBox() {
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel>
-        </div>
-    );
+    </div>);
 }
 
 export default CarouselBox;

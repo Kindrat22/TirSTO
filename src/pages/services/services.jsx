@@ -4,28 +4,26 @@ import React from "react";
 import '../PagesStyles.css'
 
 const style = {
-    marginTop: 3,
-    padding: 0,
+    marginTop: 3, padding: 0,
 
 };
 
 function Services() {
-    return (
-        <div id={'services'}>
-            <p  className="headerText mt-5">Ми виконуємо ремонт</p>
-            <div className = "Pages_total">
-                <Accordion defaultActiveKey={['3']} alwaysOpen>
+    return (<div id={'services'}>
+        <p className="headerText mt-5">Ми виконуємо ремонт</p>
+        <div className="Pages_total">
+            <Accordion defaultActiveKey={['3']} alwaysOpen>
                 <Accordion.Item eventKey="0">
                     <Accordion.Header>Ходової</Accordion.Header>
                     <Accordion.Body style={style}>
                         <WorkTable
-                            rows ={[
-                                {name: 'Ремонт Ходової',price: 123},
-                                {name: 'Ремонт Ходової',price: 237},
-                                {name: 'Ремонт Ходової',price: 262},
-                                {name: 'Ремонт Ходової',price: 305},
-                                {name: 'Ремонт Ходової',price: 356},
-                                {name: 'Ремонт Ходової',price: 100},
+                            rows={[
+                                {name: 'Ремонт Ходової', price: 123},
+                                {name: 'Ремонт Ходової', price: 237},
+                                {name: 'Ремонт Ходової', price: 262},
+                                {name: 'Ремонт Ходової', price: 305},
+                                {name: 'Ремонт Ходової', price: 356},
+                                {name: 'Ремонт Ходової', price: 100},
                             ]}
                         />
                     </Accordion.Body>
@@ -34,14 +32,11 @@ function Services() {
                     <Accordion.Header>Мотору</Accordion.Header>
                     <Accordion.Body style={style}>
                         <WorkTable
-                            rows ={[
-                                {name: 'Ремонт Мотору',price: 123},
-                                {name: 'Ремонт Мотору',price: 237},
-                                {name: 'Ремонт Мотору',price: 262},
-                                {name: 'Ремонт Мотору',price: 305},
-                                {name: 'Ремонт Мотору',price: 356},
-                                {name: 'Ремонт Мотору',price: 100},
-                            ]}
+                            rows={[{name: 'Ремонт Мотору', price: 123}, {
+                                name: 'Ремонт Мотору', price: 237
+                            }, {name: 'Ремонт Мотору', price: 262}, {
+                                name: 'Ремонт Мотору', price: 305
+                            }, {name: 'Ремонт Мотору', price: 356}, {name: 'Ремонт Мотору', price: 100},]}
                         />
                     </Accordion.Body>
                 </Accordion.Item>
@@ -49,21 +44,19 @@ function Services() {
                     <Accordion.Header>Напівпричіпів</Accordion.Header>
                     <Accordion.Body style={style}>
                         <WorkTable
-                            rows ={[
-                                {name: 'Ремонт Напівпричіпів',price: 123},
-                                {name: 'Ремонт Напівпричіпів',price: 237},
-                                {name: 'Ремонт Напівпричіпів',price: 262},
-                                {name: 'Ремонт Напівпричіпів',price: 305},
-                                {name: 'Ремонт Напівпричіпів',price: 356},
-                                {name: 'Ремонт Напівпричіпів',price: 100},
-                            ]}
+                            rows={[{name: 'Ремонт Напівпричіпів', price: 123}, {
+                                name: 'Ремонт Напівпричіпів', price: 237
+                            }, {name: 'Ремонт Напівпричіпів', price: 262}, {
+                                name: 'Ремонт Напівпричіпів', price: 305
+                            }, {name: 'Ремонт Напівпричіпів', price: 356}, {
+                                name: 'Ремонт Напівпричіпів', price: 100
+                            },]}
                         />
                     </Accordion.Body>
                 </Accordion.Item>
             </Accordion>
-            </div>
         </div>
-    );
+    </div>);
 }
 
 export default Services;
