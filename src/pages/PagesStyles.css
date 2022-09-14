@@ -6,9 +6,7 @@
 
 }
 
-.CarouselBox {
-    margin-bottom: 6%;
-}
+
 
 
 h1:target {
@@ -16,7 +14,9 @@ h1:target {
 }
 
 :target {
-    padding-top: 50px;
+    display: block;
+    overflow-y: scroll ;
+    scroll-behavior: smooth;
 }
 
 .Carousel {

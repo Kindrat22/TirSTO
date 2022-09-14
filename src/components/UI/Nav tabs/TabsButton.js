@@ -15,7 +15,7 @@ export default function TabsButton() {
         setValue(newValue);
     };
 
-    return (<Box sx={{maxWidth: {xs: 360, sm: 500}}}>
+    return (<Box sx={{maxWidth: {xs: 350, sm: 500}}}>
         <Tabs
             selectionFollowsFocus
             value={value}
@@ -27,8 +27,8 @@ export default function TabsButton() {
 
         >
             <Tab href='#info' style={style} label="Головна"/>
-            <Tab href='#contacts' style={style} label="Контакти"/>
             <Tab href='#services' style={style} label="Послуги"/>
+            <Tab href='#contacts' style={style} label="Контакти"/>
             <Tab href='#maps' style={style} label="Карта"/>
 
         </Tabs>

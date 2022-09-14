@@ -17,8 +17,8 @@ function App() {
             <Header/>
             <CarouselBox/>
             <Info/>
-            <Contacts/>
             <Services/>
+            <Contacts/>
             <MyMap/>
             <Socials></Socials>
             <Footer/>

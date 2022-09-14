@@ -2,14 +2,14 @@
 .block {
 
     display: inline-block ;
-    margin-left: 30px;
+    margin-left: 0px;
     height:100%;
     width: 300px;
 }
 
 .socialblock {
     display: inline-block ;
-    margin-left: 10px;
+    margin-left: 0px;
     height:100%;
     width: 100px;
 
