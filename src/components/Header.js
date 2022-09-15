@@ -8,28 +8,32 @@ import './componentsStyles.css'
 
 export default class Header extends Component {
     render() {
-        return (<Navbar fixed={'top'} className='Header' collapseOnSelect expand="sm" bg="dark">
-                <Container>
-                    <Navbar.Brand href="#carousel">
-                        <img
-                            src={logo}
-                            height="30"
-                            width="35"
-                            className="d-inline-block align-top"
-                            alt="Logo"
-                        />
-                    </Navbar.Brand>
-                    <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
-                    <Navbar.Collapse id="responsive-navbar-nav">
-                        <Nav className="me-auto">
-                            <TabsButton/>
+        return (
+            <div >
+                <div className={'backHeader'}></div>
+                <Navbar className='Header' collapseOnSelect expand="sm" bg="dark">
+                    <Container>
+                        <Navbar.Brand href="#carousel">
+                            <img
+                                src={logo}
+                                height="30"
+                                width="35"
+                                className="d-inline-block align-top"
+                                alt="Logo"
+                            />
+                        </Navbar.Brand>
+                        <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
+                        <Navbar.Collapse id="responsive-navbar-nav">
+                            <Nav className="me-auto">
+                                <TabsButton/>
 
 
-                        </Nav>
+                            </Nav>
 
-                    </Navbar.Collapse>
-                </Container>
-            </Navbar>
+                        </Navbar.Collapse>
+                    </Container>
+                </Navbar>
+            </div>
 
         );
     }

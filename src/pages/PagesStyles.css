@@ -20,7 +20,10 @@ h1:target {
 }
 
 .Carousel {
-    margin-top: 39px;
+    background-color: #212529;
+    padding-top: 32px;
+
+
 }
 
 .Link {
