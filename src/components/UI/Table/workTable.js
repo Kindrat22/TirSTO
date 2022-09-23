@@ -10,7 +10,7 @@ import Paper from '@mui/material/Paper';
 
 const StyledTableCell = styled(TableCell)(({theme}) => ({
     [`&.${tableCellClasses.head}`]: {
-        backgroundColor: theme.palette.common.black, color: theme.palette.common.white,
+        backgroundColor: "#212529", color: theme.palette.common.white,
     }, [`&.${tableCellClasses.body}`]: {
         fontSize: 14,
     },
@@ -31,7 +31,7 @@ export default function WorkTable(props) {
     return (<TableContainer component={Paper} style={{borderRadius: 0}}>
         <Table sx={{minWidth: 400}} aria-label="customized table">
             <TableHead>
-                <TableRow>
+                <TableRow >
                     <StyledTableCell>Послуга</StyledTableCell>
                     <StyledTableCell align="right">Ціна, грн.</StyledTableCell>
                 </TableRow>

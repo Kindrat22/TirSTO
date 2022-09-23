@@ -183,3 +183,67 @@ h1:target {
     }
 }
 
+body {
+    font-family: 'e-Ukraine', sans-serif;
+}
+
+@font-face {
+    font-family: 'e-Ukraine';
+    src: url("../fonts/e-Ukraine-Thin.otf"),
+    url("../fonts/e-Ukraine-Thin.woff2"),
+    url("../fonts/e-Ukraine-Thin.woff");
+    font-weight: 100;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'e-Ukraine';
+    src: url("../fonts/e-Ukraine-UltraLight.otf"),
+    url("../fonts/e-Ukraine-UltraLight.woff2"),
+    url("../fonts/e-Ukraine-UltraLight.woff");
+    font-weight: 200;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'e-Ukraine';
+    src: url("../fonts/e-Ukraine-Light.otf"),
+    url("../fonts/e-Ukraine-Light.woff2"),
+    url("../fonts/e-Ukraine-Light.woff");
+    font-weight: 300;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'e-Ukraine';
+    src: url("../fonts/e-Ukraine-Regular.otf"),
+    url("../fonts/e-Ukraine-Regular.woff2"),
+    url("../fonts/e-Ukraine-Regular.woff");
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'e-Ukraine';
+    src: url("../fonts/e-Ukraine-Medium.otf"),
+    url("../fonts/e-Ukraine-Medium.woff2"),
+    url("../fonts/e-Ukraine-Medium.woff");
+    font-weight: 500;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'e-Ukraine';
+    src: url("../fonts/e-Ukraine-Bold.otf"),
+    url("../fonts/e-Ukraine-Bold.woff2"),
+    url("../fonts/e-Ukraine-Bold.woff");
+    font-weight: 700;
+    font-display: swap;
+    font-style: normal;
+}
+
