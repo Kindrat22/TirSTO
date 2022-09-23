@@ -5,6 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f56d62e-4f28-4c49-9632-0d053ebac541" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/fonts/e-Ukraine-Bold.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/e-Ukraine-Bold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/e-Ukraine-Bold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/e-Ukraine-Light.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/e-Ukraine-Light.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/e-Ukraine-Light.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/e-Ukraine-Medium.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/e-Ukraine-Medium.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/e-Ukraine-Medium.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/e-Ukraine-Regular.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/e-Ukraine-Regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/e-Ukraine-Regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/e-Ukraine-Thin.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/e-Ukraine-Thin.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/e-Ukraine-Thin.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/e-Ukraine-UltraLight.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/e-Ukraine-UltraLight.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/e-Ukraine-UltraLight.woff2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.cache/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/0.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/0.pack" afterDir="false" />
@@ -22,6 +40,7 @@
       <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/index.pack.old" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/index.pack.old" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/UI/Table/workTable.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Table/workTable.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/PagesStyles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/PagesStyles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,23 +67,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/oleksii/Documents/TirSTO/src/imgs/Icons&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Applications/WebStorm.app/Contents/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/oleksii/Documents/TirSTO/src",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "/Applications/WebStorm.app/Contents/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/imgs/Icons" />
@@ -96,7 +115,7 @@
       <workItem from="1663662757995" duration="2000" />
       <workItem from="1663663182309" duration="7713000" />
       <workItem from="1663844708316" duration="599000" />
-      <workItem from="1663927314156" duration="1198000" />
+      <workItem from="1663927314156" duration="1418000" />
     </task>
     <servers />
   </component>
