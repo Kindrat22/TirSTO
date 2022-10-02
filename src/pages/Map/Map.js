@@ -17,7 +17,7 @@ const onClick = () => {
 
 function MyMap() {
     const {isLoaded} = useJsApiLoader({
-        id: 'google-map-script', googleMapsApiKey: "AIzaSyDQB_ECDhUbjI1DJZ-y7LdBMUAa0q-eYpc"
+        id: 'google-map-script', googleMapsApiKey: "AIzaSyBIMbjXtKR9Q39untkntlDmNmckD6M_tKE"
     })
 
     const [map, setMap] = React.useState(null)
